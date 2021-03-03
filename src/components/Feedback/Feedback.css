@@ -1,0 +1,22 @@
+button {
+    cursor: pointer;
+    padding: 5px 15px;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: rgb(185, 214, 233);
+  }
+  
+  .buttonList {
+    display: inline-block;
+  }
+  
+  .buttonList:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
